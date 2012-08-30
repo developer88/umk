@@ -1,0 +1,64 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="win_about"
+    Title="О программе" Height="410" Width="571" WindowStyle="ToolWindow" ResizeMode="NoResize" Icon="images/icon_main.ico" Background="White" mc:Ignorable="d" ShowInTaskbar="False">
+	<Window.Resources>
+		<Style x:Key="link_labels" TargetType="{x:Type Label}">
+			<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+			<Setter Property="Background" Value="Transparent"/>
+			<Setter Property="Padding" Value="5"/>
+			<Setter Property="HorizontalContentAlignment" Value="Left"/>
+			<Setter Property="VerticalContentAlignment" Value="Top"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Label}">
+						<Border SnapsToDevicePixels="true" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}" x:Name="border">
+							<ContentPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" RecognizesAccessKey="True" x:Name="contentPresenter"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Foreground" Value="#FF424242"/>
+								<Setter Property="BorderBrush" TargetName="border" Value="#FF000000"/>
+								<Setter Property="BitmapEffect" TargetName="contentPresenter">
+									<Setter.Value>
+										<OuterGlowBitmapEffect GlowColor="#FFA1ADEB" Opacity="0.825"/>
+									</Setter.Value>
+								</Setter>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="false">
+								<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+    <Grid>
+    	<Grid.ColumnDefinitions>
+    		<ColumnDefinition/>
+    	</Grid.ColumnDefinitions>
+    	
+    		<Label Width="140.039" Height="40" Content="УМК Shell" Canvas.Left="80" Canvas.Top="8" Foreground="Black" FontWeight="Bold" FontSize="26.667" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="80,10.563,0,0" VerticalAlignment="Top" d:LayoutOverrides="Width, Height" FontFamily="Calibri">
+    			<Label.Background>
+    				<SolidColorBrush/>
+    			</Label.Background>
+    		</Label>
+    		<Label Width="393" Height="27" Content="Версия: " Canvas.Left="81.942" Canvas.Top="43.174" x:Name="lbl_version" Margin="80,47.113,92,0" VerticalAlignment="Top" FontFamily="Calibri"/>
+    		<Label Width="91" Height="27" Content="О программе:" Canvas.Left="8" Canvas.Top="81" FontWeight="Bold" HorizontalAlignment="Left" Margin="8,80,0,0" VerticalAlignment="Top" d:LayoutOverrides="Width, Height" FontFamily="Calibri"/>
+    		<Label Content="Визуальная оболочка для учебно-методического комплекса. Содержит необходимый &#xd;&#xa;справочный материал, а также, программу для тестирования студентов. &#xd;&#xa;&#xd;&#xa;Все права на данный комплекс и размещенные в нем ресурсы принадлежат правообладателям&#xd;&#xa;и  защищаются законодательством РФ. Учебно-методический комплекс предназначен для  &#xd;&#xa;индивидуального учебного и некоммерческого использования исключительно студентами и &#xd;&#xa;сотрудниками высшего заведения, которому принадлежит авторство материалов данного диска.&#xd;&#xa;&#xd;&#xa;Запрещаются любые способы копирования, тиражирования, распространения&#xd;&#xa;и передачи третьим лицам.  " Canvas.Left="8" Canvas.Top="108" VerticalContentAlignment="Stretch" Padding="0,5" HorizontalContentAlignment="Center" FontFamily="Calibri" Margin="8,100,-8,112.5"/>
+    		<Label Width="159" Height="27" Content="Об авторе:" Canvas.Left="8" Canvas.Top="286" FontWeight="Bold" Margin="8,0,0,60.5" VerticalAlignment="Bottom" d:LayoutOverrides="Height" HorizontalAlignment="Left" FontFamily="Calibri"/>
+    		<Label Width="159" Height="29" Content="Ерёмин Андрей" Canvas.Left="8" Canvas.Top="304" Margin="8,0,0,39.48" VerticalAlignment="Bottom" d:LayoutOverrides="Height" HorizontalAlignment="Left" FontFamily="Calibri"/>
+    		<Label Width="285" Height="14" Content="Сайт: http://eremin.me" Canvas.Left="12" Canvas.Top="330" FontStyle="Italic" Padding="-90,5,5,5" x:Name="lbl_site" ToolTip="Нажмите, чтобы перейти на сайт автора." Visibility="Visible" Style="{DynamicResource link_labels}" Margin="13.5,0,266.5,11.48" VerticalAlignment="Bottom" d:LayoutOverrides="Height" FontFamily="Calibri"/>
+    		<Label Width="285" Height="17" Content="Почта: dsoft88@gmail.com" FontStyle="Italic" Canvas.Left="12" Canvas.Top="348" VerticalContentAlignment="Top" Padding="-87,5,5,5" x:Name="lbl_email" ToolTip="Нажмите, чтобы написать письмо автору программы" Style="{DynamicResource link_labels}" Margin="13.5,0,266.5,27.48" VerticalAlignment="Bottom" d:LayoutOverrides="Height" FontFamily="Calibri"/>
+    		<Image Width="68" Height="68" Source="images\umk_shell.png" Stretch="Fill" Canvas.Left="8" Canvas.Top="8" ClipToBounds="False" HorizontalAlignment="Left" Margin="8,10.563,0,0" VerticalAlignment="Top" d:LayoutOverrides="Width, Height">
+    			<Image.BitmapEffect>
+    				<OuterGlowBitmapEffect GlowColor="#FF020202"/>
+    			</Image.BitmapEffect>
+    		</Image>
+    		<Button Width="82" Height="31" Content="Закрыть" Click="Button_Click" Canvas.Left="467" Canvas.Top="342" HorizontalAlignment="Right" Margin="0,0,8,8" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
+    		<Label Width="202" Height="86.563" Content="RTM" Canvas.Left="439" Canvas.Top="-12.939" FontSize="64" FontWeight="Bold" Background="#00646060" Foreground="#FF595959" Opacity="0.175" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-8,8,0" VerticalAlignment="Top" d:LayoutOverrides="Width, Height" FontFamily="Calibri"/>
+    		<Label x:Name="lbl_licence" Height="29" FontWeight="Bold" Content="Лицензионное соглашение программы УМК Shell" Margin="9,0,205,83.5" VerticalAlignment="Bottom" FontFamily="Calibri" d:LayoutOverrides="Height" Style="{DynamicResource link_labels}" ToolTip="Нажмите, чтобы просмотреть лицензионное соглашение программы UMK Shell." />
+    </Grid>
+</Window>

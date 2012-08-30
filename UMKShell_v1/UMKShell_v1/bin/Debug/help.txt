@@ -1,0 +1,14 @@
+splash_type=image
+splash_type=page
+help_type=url
+help_type=page
+umk_type=page
+umk_type=url
+test_type=umk_test
+test_type=url
+test_type=page
+about_type=page
+about_type=url
+pict_viewer
+
+command

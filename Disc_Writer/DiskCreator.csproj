@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B8FDB66-1D5A-4533-9F51-2D693BF0EF23}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DiskCreator</RootNamespace>
+    <AssemblyName>DiscCreator</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignManifests>false</SignManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationIcon>Resources\cd_creator.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="class\cls_ide.cs" />
+    <Compile Include="class\cls_main.cs" />
+    <Compile Include="class\cls_prj.cs" />
+    <Compile Include="frm_show_picture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_show_picture.Designer.cs">
+      <DependentUpon>frm_show_picture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interop\BurnData.cs" />
+    <Compile Include="MediaItem\DirectoryItem.cs" />
+    <Compile Include="MediaItem\FileItem.cs" />
+    <Compile Include="Interop\imapi2Interop.cs" />
+    <Compile Include="MediaItem\IMediaItem.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MediaItem\Win32.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_show_picture.resx">
+      <DependentUpon>frm_show_picture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="win_about.resx">
+      <DependentUpon>win_about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="win_add_umk.resx">
+      <DependentUpon>win_add_umk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="win_plans.resx">
+      <DependentUpon>win_plans.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="win_about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="win_about.Designer.cs">
+      <DependentUpon>win_about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="win_add_umk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="win_add_umk.Designer.cs">
+      <DependentUpon>win_add_umk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="win_plans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="win_plans.Designer.cs">
+      <DependentUpon>win_plans.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cd_creator.ico" />
+    <None Include="Resources\cd_creator.ico" />
+    <None Include="Resources\mngr_n.jpg" />
+    <None Include="Resources\mngr_m.jpg" />
+    <None Include="Resources\about_n2.jpg" />
+    <None Include="Resources\about_m2.jpg" />
+    <None Include="Resources\exit_n2.jpg" />
+    <None Include="Resources\exit_m2.jpg" />
+    <None Include="Resources\data_n2.jpg" />
+    <None Include="Resources\data_m2.jpg" />
+    <None Include="Resources\actions_n2.jpg" />
+    <None Include="Resources\actions_m2.jpg" />
+    <None Include="Resources\save2_m.jpg" />
+    <None Include="Resources\save2_n.jpg" />
+    <None Include="Resources\projects_m.jpg" />
+    <None Include="Resources\projects_n.jpg" />
+    <None Include="Resources\save_d.jpg" />
+    <None Include="Resources\curriculum_n.jpg" />
+    <None Include="Resources\curriculum_m.jpg" />
+    <None Include="Resources\actions_n.jpg" />
+    <None Include="Resources\actions_m.jpg" />
+    <None Include="Resources\actions_d.jpg" />
+    <None Include="Resources\data_n.jpg" />
+    <None Include="Resources\data_m.jpg" />
+    <None Include="Resources\data_d.jpg" />
+    <None Include="Resources\feedback_n.jpg" />
+    <None Include="Resources\feedback_m.jpg" />
+    <None Include="Resources\help_m.jpg" />
+    <None Include="Resources\help_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\developers_components_lib\developers_components_lib.csproj">
+      <Project>{1B1DF965-568A-4640-8E1A-7D7F719F1830}</Project>
+      <Name>developers_components_lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

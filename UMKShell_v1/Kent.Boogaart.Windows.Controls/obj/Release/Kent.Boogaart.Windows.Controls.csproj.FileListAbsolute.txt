@@ -1,0 +1,9 @@
+C:\Users\Developer\Desktop\temp\Resizer\Kent.Boogaart.Windows.Controls\Kent.Boogaart.Windows.Controls\bin\Release\Kent.Boogaart.Windows.Controls.dll
+C:\Users\Developer\Desktop\temp\Resizer\Kent.Boogaart.Windows.Controls\Kent.Boogaart.Windows.Controls\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\temp\Resizer\Kent.Boogaart.Windows.Controls\Kent.Boogaart.Windows.Controls\obj\Release\themes\generic.g.cs
+C:\Users\Developer\Desktop\temp\Resizer\Kent.Boogaart.Windows.Controls\Kent.Boogaart.Windows.Controls\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Developer\Desktop\temp\Resizer\Kent.Boogaart.Windows.Controls\Kent.Boogaart.Windows.Controls\obj\Release\Kent.Boogaart.Windows.Controls_MarkupCompile.cache
+C:\Users\Developer\Desktop\temp\Resizer\Kent.Boogaart.Windows.Controls\Kent.Boogaart.Windows.Controls\obj\Release\Kent.Boogaart.Windows.Controls_MarkupCompile.lref
+C:\Users\Developer\Desktop\temp\Resizer\Kent.Boogaart.Windows.Controls\Kent.Boogaart.Windows.Controls\obj\Release\themes\generic.baml
+C:\Users\Developer\Desktop\temp\Resizer\Kent.Boogaart.Windows.Controls\Kent.Boogaart.Windows.Controls\obj\Release\Kent.Boogaart.Windows.Controls.g.resources
+C:\Users\Developer\Desktop\temp\Resizer\Kent.Boogaart.Windows.Controls\Kent.Boogaart.Windows.Controls\obj\Release\Kent.Boogaart.Windows.Controls.dll

@@ -1,0 +1,16 @@
+------------------------------------------------------------------------
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\UMKShell_v1.vbproj
+------------------------------------------------------------------------
+Updating <Import> from 'SubsetFont.targets' to '$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\.NETFramework\v4.0\Microsoft.Expression.Blend.WPF.targets'
+Updating <Import> from '$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\3.0\WPF\Microsoft.Expression.Blend.WPF.targets' to '$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\.NETFramework\v4.0\Microsoft.Expression.Blend.WPF.targets'
+Updating <ExpressionBlendVersion> value from '3.0.1927.0' to '4.0.20525.0'
+Saving file
+
+
+---------------------------------------------------------
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1.sln
+---------------------------------------------------------
+Setting solution format header to 'Microsoft Visual Studio Solution File, Format Version 11.00'
+Saving file
+
+

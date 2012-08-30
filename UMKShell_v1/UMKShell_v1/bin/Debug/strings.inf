@@ -1,0 +1,25 @@
+﻿version=100
+[MAIN_SETTINGS]
+search_enabled=True
+glass_enabled=true
+[CAPTIONS]
+caption=Тестовый Диск
+author=РГАЗУ
+learn_caption=Обучение
+control_caption=Контроль
+[BUTTONS]
+splash_type=page
+splash_path=splash\
+splash_enabled=False
+help_type=page
+help_enabled=True
+help_path=help\index.htm
+umk_type=page
+umk_enabled=false
+umk_path=umk\index.htm
+test_type=url
+test_enabled=false
+test_path=http://
+about_type=url
+about_enabled=True
+about_path=http://www.rgazu.ru

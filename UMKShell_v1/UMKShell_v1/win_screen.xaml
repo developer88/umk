@@ -1,0 +1,12 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="win_screen"
+    Title="Просмотр изображения" Height="531" Width="627" Icon="images/umk_shell.ico" mc:Ignorable="d" ResizeMode="CanResizeWithGrip">
+    <Grid>
+    	<ScrollViewer x:Name="sv">
+    		<Image x:Name="img_pic"/>
+    	</ScrollViewer>
+        
+    </Grid>
+</Window>

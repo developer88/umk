@@ -1,0 +1,13 @@
+E:\Development\umk_manager_08\Disc_Writer\bin\Release\BurnMedia.exe.manifest
+E:\Development\umk_manager_08\Disc_Writer\bin\Release\BurnMedia.application
+E:\Development\umk_manager_08\Disc_Writer\bin\Release\BurnMedia.exe
+E:\Development\umk_manager_08\Disc_Writer\bin\Release\BurnMedia.pdb
+E:\Development\umk_manager_08\Disc_Writer\obj\Release\ResolveAssemblyReference.cache
+E:\Development\umk_manager_08\Disc_Writer\obj\Release\BurnMedia.MainForm.resources
+E:\Development\umk_manager_08\Disc_Writer\obj\Release\BurnMedia.Properties.Resources.resources
+E:\Development\umk_manager_08\Disc_Writer\obj\Release\BurnMedia.csproj.GenerateResource.Cache
+E:\Development\umk_manager_08\Disc_Writer\obj\Release\BurnMedia.TrustInfo.xml
+E:\Development\umk_manager_08\Disc_Writer\obj\Release\BurnMedia.exe.manifest
+E:\Development\umk_manager_08\Disc_Writer\obj\Release\BurnMedia.application
+E:\Development\umk_manager_08\Disc_Writer\obj\Release\BurnMedia.exe
+E:\Development\umk_manager_08\Disc_Writer\obj\Release\BurnMedia.pdb

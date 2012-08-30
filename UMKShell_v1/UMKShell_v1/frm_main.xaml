@@ -1,0 +1,231 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:l="clr-namespace:UIControls;assembly=UIControls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       mc:Ignorable="d"
+	xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero"
+	xmlns:Custom="http://schemas.microsoft.com/wpf/2008/toolkit" xmlns:Custom1="http://kent.boogaart/controls"
+     DataContext="{Binding RelativeSource={RelativeSource Self}}"
+	x:Class="frm_main"
+	x:Name="Window"
+	Title="frm_main"
+	Width="640" 
+    Height="480"  
+    MinWidth="640" MinHeight="480" Icon="images\umk_shell.ico">
+	<Window.Resources>
+         <Style x:Key="lbl_button" TargetType="{x:Type Label}">
+			<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+			<Setter Property="Background" Value="Transparent"/>
+			<Setter Property="Padding" Value="5"/>
+			<Setter Property="HorizontalContentAlignment" Value="Left"/>
+			<Setter Property="VerticalContentAlignment" Value="Top"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Label}">
+						<Border SnapsToDevicePixels="true" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" x:Name="border" BorderThickness="2,2,2,2">
+							<ContentPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" RecognizesAccessKey="True"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+                                <!--<Setter Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                            <GradientStop Color="#cfecff" Offset="0"/>
+                                            <GradientStop Color="#5e96b9" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>-->
+                                <Setter Property="CornerRadius" TargetName="border" Value="1,0,0,0"/>
+								<Setter Property="BorderBrush" TargetName="border" Value="#FF000000"/>
+								<Setter Property="BorderThickness" TargetName="border" Value="1,1,1,1"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="false">
+								<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<LinearGradientBrush x:Key="TextBoxBorder" EndPoint="0,20" StartPoint="0,0" MappingMode="Absolute">
+			<GradientStop Color="#ABADB3" Offset="0.05"/>
+			<GradientStop Color="#E2E3EA" Offset="0.07"/>
+			<GradientStop Color="#E3E9EF" Offset="1"/>
+		</LinearGradientBrush>
+		<Style x:Key="SearchBox" BasedOn="{x:Null}" TargetType="{x:Type TextBox}">
+			<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+			<Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+			<Setter Property="BorderBrush" Value="{StaticResource TextBoxBorder}"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="Padding" Value="1"/>
+			<Setter Property="AllowDrop" Value="true"/>
+			<Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type TextBox}">
+						<Microsoft_Windows_Themes:ListBoxChrome SnapsToDevicePixels="true" x:Name="Bd" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" RenderFocused="{TemplateBinding IsKeyboardFocusWithin}" RenderMouseOver="{TemplateBinding IsMouseOver}">
+							<ScrollViewer SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" x:Name="PART_ContentHost"/>
+						</Microsoft_Windows_Themes:ListBoxChrome>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsEnabled" Value="false">
+								<Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+								<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="link_labels" TargetType="{x:Type Label}">
+			<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+			<Setter Property="Background" Value="Transparent"/>
+			<Setter Property="Padding" Value="5"/>
+			<Setter Property="HorizontalContentAlignment" Value="Left"/>
+			<Setter Property="VerticalContentAlignment" Value="Top"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Label}">
+						<Border SnapsToDevicePixels="true" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}" x:Name="border">
+							<ContentPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" RecognizesAccessKey="True" x:Name="contentPresenter"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Foreground" Value="#5e96b9"/>
+								<Setter Property="BorderBrush" TargetName="border" Value="#FF000000"/>
+								<Setter Property="BitmapEffect" TargetName="contentPresenter">
+									<Setter.Value>
+										<OuterGlowBitmapEffect GlowColor="#148fdd" Opacity="0.825"/>
+									</Setter.Value>
+								</Setter>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="false">
+								<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+
+  
+
+	<Grid x:Name="LayoutRoot" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="120*"/>
+            <RowDefinition Height="322*" />
+            <RowDefinition Height="0*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+        <Rectangle x:Name="header_back" Height="52" Margin="-3,-2.5,-3,0" VerticalAlignment="Top" Stroke="Black">
+			<Rectangle.Fill>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="#FFC6B5B5" Offset="0"/>
+					<GradientStop Color="White" Offset="1"/>
+				</LinearGradientBrush>
+			</Rectangle.Fill>
+		</Rectangle>
+        <Rectangle Margin="0,52,0,25" Grid.RowSpan="2" x:Name="rec"   Fill="White" />
+        <Canvas x:Name="gb_header" VerticalAlignment="Top" Height="48" d:LayoutOverrides="VerticalAlignment">
+            <Image Height="42" Stretch="Fill" x:Name="img_left" Source="images\btn_left.png" ToolTip="Предыдущая страница" IsEnabled="True" Width="42.5" Canvas.Left="7" Canvas.Top="3">
+                <Image.BitmapEffect>
+                    <OuterGlowBitmapEffect GlowColor="#FF16140B" />
+                </Image.BitmapEffect>
+            </Image>
+            <DockPanel Height="28" LastChildFill="False" Width="342" Canvas.Left="53.5" Canvas.Top="12">
+            	<Label FontStretch="Condensed" FontWeight="Bold" Padding="4,2,3,0" Width="71" Height="23.221" Content="Обучение" x:Name="lbl_edu" Style="{DynamicResource lbl_button}" FontFamily="Tahoma" ToolTip="В данном разделе вы найдёте необходимые учебные материалы" FontSize="10.667" HorizontalAlignment="Left" Margin="0,0.01,0,0" VerticalAlignment="Top">
+            		<Label.BitmapEffect>
+            			<OuterGlowBitmapEffect GlowSize="8" Opacity="0.7" GlowColor="White" />
+            		</Label.BitmapEffect>
+            	</Label>
+            	<Label FontStretch="Condensed" FontWeight="Bold" Padding="4,2,3,0" Width="70" Height="23.221" Content="Контроль" x:Name="lbl_control" Style="{DynamicResource lbl_button}" FontFamily="Tahoma" FontSize="10.667" ToolTip="В данном разделе вы сможете протестировать полученные знания" HorizontalAlignment="Left" VerticalAlignment="Top">
+            		<Label.BitmapEffect>
+            			<OuterGlowBitmapEffect GlowSize="8" Opacity="0.7" GlowColor="White" />
+            		</Label.BitmapEffect>
+            	</Label>
+            	<Label FontSize="10.667" FontStretch="Condensed" FontWeight="Bold" Padding="4,2,3,0" Content="Инст." x:Name="lbl_inst" Width="52" HorizontalAlignment="Left" Style="{DynamicResource lbl_button}" Height="23.221" FontFamily="Tahoma" ToolTip="Раздел содержит информацию об учебном заведении" RenderTransformOrigin="0.423,0.474" Margin="0,0.01,0,0" VerticalAlignment="Top">
+            		<Label.BitmapEffect>
+            			<OuterGlowBitmapEffect GlowSize="8" Opacity="0.7" GlowColor="White" />
+            		</Label.BitmapEffect>
+            	</Label>
+            	<Label BorderBrush="{x:Null}" BorderThickness="1,1,1,1" FontSize="10.667" FontStretch="Condensed" FontWeight="Bold" Padding="4,2,3,0" Width="105" Height="23.221" Content="Дополнительно" HorizontalAlignment="Left" x:Name="lbl_other" Style="{DynamicResource lbl_button}" FontFamily="Tahoma" VerticalAlignment="Top">
+            		<Label.BitmapEffect>
+            			<OuterGlowBitmapEffect GlowSize="8" Opacity="0.7" GlowColor="White" />
+            		</Label.BitmapEffect>
+            	</Label>
+            </DockPanel>
+        </Canvas>
+        <l:SearchTextBox TextWrapping="Wrap" x:Name="txt_search_box" HorizontalAlignment="Right" Margin="0,14.261,8,0" VerticalAlignment="Top" Width="209.96" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment" BorderThickness="2" ToolTip="Наберите текст для поиска" BorderBrush="#FF848484" Height="23.96" />
+        <Image HorizontalAlignment="Left" Margin="73,74.211,0,0" Width="545" Source="images\grad_back.jpg" Stretch="Fill" Visibility="Hidden" d:IsHidden="True" Grid.RowSpan="2" />
+		<Image HorizontalAlignment="Left" Width="618" Source="images\white_bg.jpg" Stretch="Fill" x:Name="image1" Visibility="Hidden" Height="35.197" VerticalAlignment="Bottom" Grid.Row="1" />
+		<WebBrowser IsHitTestVisible="True" Margin="0,52.5,0,25" x:Name="web_browser" Grid.RowSpan="2" />
+		<Image Margin="8,49,8,25" Visibility="Hidden" x:Name="img_splash" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+			<Image.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform ScaleX="1" ScaleY="1"/>
+					<SkewTransform AngleX="0" AngleY="0"/>
+					<RotateTransform Angle="0"/>
+					<TranslateTransform X="0" Y="0"/>
+				</TransformGroup>
+			</Image.RenderTransform>
+		</Image>
+        <Grid Margin="0,54,0,25" x:Name="gb_search" Visibility="Hidden" Grid.RowSpan="2">
+        	<ListView x:Name="lst" Margin="8,9,29,8">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <StackPanel Margin="3">
+                            <DockPanel >
+                                <TextBlock FontWeight="Bold" Text="" DockPanel.Dock="Left" Margin="0,0,10,0"/>
+                                <TextBlock Text="" />
+                                <TextBlock Text="{Binding Found_Name}" Foreground="Green" FontWeight="Bold" />
+                            </DockPanel>
+                            <DockPanel >
+                                <TextBlock FontWeight="Bold" Text="" Foreground ="DarkOrange" DockPanel.Dock="Left" Margin="5,0,5,0"/>
+                                <TextBlock Text="{Binding Found_type}" />
+                                <TextBlock Text=", " />
+                                <TextBlock Text="{Binding Found_path}" />
+                            </DockPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+               
+                <StackPanel/>
+               
+            </ListView>
+        	<Button HorizontalAlignment="Right" VerticalAlignment="Top" Width="19" Height="19.789" Content="X" FontWeight="Bold" Padding="0,0,0,0" ToolTip="Закрыть поиск" BorderBrush="#FF979797" Foreground="#FF000000" BorderThickness="0,0,0,0" x:Name="btn_close_search" Visibility="Visible" Margin="0,9,6,0">
+        		<Button.Background>
+        			<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+        				<GradientStop Color="#FFF3F3F3" Offset="0"/>
+        				<GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+        				<GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+        				<GradientStop Color="#FF686464" Offset="1"/>
+        			</LinearGradientBrush>
+        		</Button.Background>
+        	</Button>
+
+        </Grid>
+		<Canvas Margin="0,0,0,0.221" x:Name="gb_footer" VerticalAlignment="Bottom" Height="24.779" Grid.Row="1">
+			<Image Width="17" Source="images\umk_shell.png" Stretch="Fill" x:Name="img_about" d:LayoutOverrides="GridBox" Height="15.779" Canvas.Left="4" Canvas.Top="4" ToolTip="О программе">
+				<Image.BitmapEffect>
+					<DropShadowBitmapEffect Direction="256" ShadowDepth="0" Opacity="0.285"/>
+				</Image.BitmapEffect>
+			</Image>
+			<Label x:Name="lbl_status" d:LayoutOverrides="GridBox" Padding="5,0,5,0" Width="576" Height="16.779" Content="Label" Canvas.Left="28" Canvas.Top="3" FontFamily="Calibri" FontSize="13.333"/>
+		</Canvas>
+        <ResizeGrip HorizontalContentAlignment="Right" Margin="0,0,1,2" Grid.IsSharedSizeScope="True" Width="19" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="17" Grid.Row="1" />
+		<Popup HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="pop_up1" AllowsTransparency="True" PopupAnimation="Slide" Margin="41,10.912,0,0" d:LayoutOverrides="VerticalAlignment" Height="85.4" Grid.Row="1" Width="112">
+			<Grid Height="80" Margin="0,2.7">
+				<Border BorderThickness="1,1,1,1" CornerRadius="0,0,0,0" BorderBrush="#FF000000" Background="White" Margin="1,0,0,0"/>
+				<Label BorderBrush="{x:Null}" BorderThickness="1,1,1,1" FontSize="10.667" FontStretch="Condensed" FontWeight="Bold" Padding="4,2,3,0" Content="О программе" x:Name="lbl_author" Style="{DynamicResource lbl_button}" Margin="0,5,-75.353,0" VerticalAlignment="Top" Height="23.221" d:LayoutOverrides="VerticalAlignment" FontFamily="Tahoma"/>
+				<Label BorderBrush="{x:Null}" BorderThickness="1,1,1,1" FontSize="10.667" FontStretch="Condensed" FontWeight="Bold" Padding="4,2,3,0" Content="Помощь" x:Name="lbl_help"  MouseDown="lbl_help_MouseDown" Style="{DynamicResource lbl_button}" Margin="0,30.221,-75.353,0" VerticalAlignment="Top" Height="23.221" FontFamily="Tahoma"/>
+			    <Label BorderBrush="{x:Null}" BorderThickness="1,1,1,1" FontSize="10.667" FontWeight="Bold" Padding="2,2,3,0" Content="Отправить отзыв" x:Name="lbl_feedback" MouseDown="lbl_feedback_MouseDown" Style="{DynamicResource lbl_button}" Margin="0,53.442,-75.353,0" VerticalAlignment="Top" Height="23.221" FontFamily="Tahoma" FontStretch="Condensed"/>
+            </Grid>
+		</Popup>
+    </Grid>
+</Window>

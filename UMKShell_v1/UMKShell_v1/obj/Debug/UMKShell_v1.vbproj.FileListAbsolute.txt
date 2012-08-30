@@ -1,0 +1,136 @@
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\Application.g.vb
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\UMKShell_v1.Resources.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\UMKShell_v1.vbproj.GenerateResource.Cache
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\frm_main.baml
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\frm_main.g.vb
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.exe
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.pdb
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.xml
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell_MarkupCompile.cache
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.g.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.exe
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.xml
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.pdb
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\Window1.baml
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\UMKShell_v1\UMKShell_v1\obj\Debug\Window1.g.vb
+E:\Development\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.exe
+E:\Development\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.pdb
+E:\Development\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.xml
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\ResolveAssemblyReference.cache
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\frm_main.baml
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\frm_main.g.vb
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\Application.g.vb
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell_MarkupCompile.cache
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.g.resources
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\UMKShell_v1.Resources.resources
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\UMKShell_v1.vbproj.GenerateResource.Cache
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.exe
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.xml
+E:\Development\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.pdb
+E:\Development\UMKShell_v1\UMKShell_v1\bin\Debug\UIControls.dll
+E:\Development\UMKShell_v1\UMKShell_v1\bin\Debug\UIControls.pdb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.exe
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.xml
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.pdb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.exe
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.pdb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.xml
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\UIControls.dll
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\UIControls.pdb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\ResolveAssemblyReference.cache
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\frm_main.baml
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\frm_main.g.vb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\Application.g.vb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell_MarkupCompile.cache
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.g.resources
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMKShell_v1.Resources.resources
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\win_about.baml
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\win_about.g.vb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\img_leftControl.baml
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\img_leftControl.g.vb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\WPFToolkit.dll
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\Simple Styles.baml
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\Application.baml
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\win_screen.baml
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\win_screen.g.vb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\developers_components_lib.dll
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\developers_components_lib.pdb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\Ionic.Zip.dll
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\window_wait.baml
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\window_wait.g.vb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\window_licence.baml
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\window_licence.g.vb
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\ResGen.read.1.tlog
+E:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\ResGen.write.1.tlog
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.exe
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.pdb
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.xml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\developers_components_lib.dll
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\UIControls.dll
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\WPFToolkit.dll
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\Microsoft.Office.Interop.Word.dll
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\Ionic.Zip.dll
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\office.dll
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\Microsoft.Vbe.Interop.dll
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\developers_components_lib.pdb
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\UIControls.pdb
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\Microsoft.Office.Interop.Word.xml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\bin\Debug\office.xml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\ResolveAssemblyReference.cache
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\frm_main.baml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\img_leftControl.baml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\Simple Styles.baml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\window_licence.baml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\window_wait.baml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\win_about.baml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\win_screen.baml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\Application.baml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\frm_main.g.vb
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\img_leftControl.g.vb
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\window_licence.g.vb
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\window_wait.g.vb
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\win_about.g.vb
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\win_screen.g.vb
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\Application.g.vb
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell_MarkupCompile.cache
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.g.resources
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMKShell_v1.Resources.resources
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\ResGen.read.1.tlog
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\ResGen.write.1.tlog
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.exe
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.xml
+F:\Development\umk_manager_08\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.pdb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.exe
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.pdb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\bin\Debug\UMK Shell.xml
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\bin\Debug\developers_components_lib.dll
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\bin\Debug\UIControls.dll
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\bin\Debug\WPFToolkit.dll
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\bin\Debug\Ionic.Zip.dll
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\bin\Debug\developers_components_lib.pdb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\bin\Debug\UIControls.pdb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\ResolveAssemblyReference.cache
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\frm_main.baml
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\img_leftControl.baml
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\Simple Styles.baml
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\window_licence.baml
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\window_wait.baml
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\win_about.baml
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\win_screen.baml
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\Application.baml
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\frm_main.g.vb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\img_leftControl.g.vb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\window_licence.g.vb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\window_wait.g.vb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\win_about.g.vb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\win_screen.g.vb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\Application.g.vb
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell_MarkupCompile.cache
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.g.resources
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\UMKShell_v1.Resources.resources
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\ResGen.read.1.tlog
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\ResGen.write.1.tlog
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.exe
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.xml
+F:\Development\NET\umk_manager_08\umk\UMKShell_v1\UMKShell_v1\obj\Debug\UMK Shell.pdb

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="window-1251" ?>
+<test> 
+  <item>привет, это тест</item> 
+  <data name="Фамилия Имя" birthday="27.02.2007" /> 
+</test> 
+<captions>
+	<caption type="window">   634er          2009</caption>
+	<caption type="author">  123123  .</caption>
+	<caption type="learn"> 321       </caption>
+	<caption type="control"> 23       </caption>
+</captions>
+<buttons>
+	<button type="image" name="splash">splash.png</button>
+	<button type="page" name="help">HELP\index.htm</button>
+	<button type="page" name="umk">UMK\index.htm</button>
+	<button type="umk_test" name="test"></button>
+	<button type="page" name="about">ABOUT\index.htm</button>	
+</butons>
+<settings>
+	<option type="pict_viewer_path"></option>
+	<option type="web_browser_path"></option>
+</settings>

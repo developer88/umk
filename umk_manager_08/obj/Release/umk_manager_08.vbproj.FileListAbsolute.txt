@@ -1,0 +1,131 @@
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.exe.manifest
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.application
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.exe
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.pdb
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.xml
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.AboutBox1.resources
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.Form1.resources
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_add.resources
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_options.resources
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_res.resources
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_splash.resources
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.Resources.resources
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.exe.manifest
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.application
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.exe
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.xml
+C:\Documents and Settings\Developer\My Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.pdb
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.exe
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.xml
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.pdb
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.exe.manifest
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.application
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.exe
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.pdb
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.xml
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.AboutBox1.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.Form1.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_add.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_options.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_res.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_splash.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.Resources.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.vbproj.GenerateResource.Cache
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.exe.manifest
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.application
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_hlp.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_info.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_temp.resources
+C:\Users\Андрей\Documents\Visual Studio 2008\Projects\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.SplashScreen1.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\ResolveAssemblyReference.cache
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.AboutBox1.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.Form1.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_temp.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_add.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_hlp.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_info.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_options.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_res.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_splash.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.Resources.resources
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.exe
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.xml
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.pdb
+E:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.exe.config
+E:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.exe.manifest
+E:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.application
+E:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.exe
+E:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.pdb
+E:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.xml
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.exe.manifest
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.application
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_back.resources
+E:\Development\umk_manager_08\umk_manager_08\bin\Release\developers_components_lib.dll
+E:\Development\umk_manager_08\umk_manager_08\bin\Release\Ionic.Zip.dll
+E:\Development\umk_manager_08\umk_manager_08\bin\Release\developers_components_lib.pdb
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\ResGen.read.1.tlog
+E:\Development\umk_manager_08\umk_manager_08\obj\Release\ResGen.write.1.tlog
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.exe.config
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.exe.manifest
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.application
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.exe
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.pdb
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\umk_manager_08.xml
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\developers_components_lib.dll
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\Microsoft.Office.Interop.Word.dll
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\Ionic.Zip.dll
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\office.dll
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\Microsoft.Vbe.Interop.dll
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\developers_components_lib.pdb
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\Microsoft.Office.Interop.Word.xml
+F:\Development\umk_manager_08\umk_manager_08\bin\Release\office.xml
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\ResolveAssemblyReference.cache
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.AboutBox1.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.Form1.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_temp.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_add.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_hlp.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_info.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_options.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_res.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_splash.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.frm_back.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.Resources.resources
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\ResGen.read.1.tlog
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\ResGen.write.1.tlog
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.exe.manifest
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.application
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.exe
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.xml
+F:\Development\umk_manager_08\umk_manager_08\obj\Release\umk_manager_08.pdb
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\bin\Release\umk_manager_08.exe.config
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\bin\Release\umk_manager_08.exe.manifest
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\bin\Release\umk_manager_08.application
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\bin\Release\umk_manager_08.exe
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\bin\Release\umk_manager_08.pdb
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\bin\Release\umk_manager_08.xml
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\bin\Release\developers_components_lib.dll
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\bin\Release\Ionic.Zip.dll
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\bin\Release\developers_components_lib.pdb
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\ResolveAssemblyReference.cache
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.AboutBox1.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.Form1.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.frm_temp.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.frm_add.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.frm_hlp.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.frm_info.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.frm_options.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.frm_res.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.frm_splash.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.frm_back.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.Resources.resources
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\ResGen.read.1.tlog
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\ResGen.write.1.tlog
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.exe.manifest
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.application
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.exe
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.xml
+F:\Development\NET\umk_manager_08\umk\umk_manager_08\obj\Release\umk_manager_08.pdb
