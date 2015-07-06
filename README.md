@@ -9,9 +9,6 @@
 * УМК Shell (UMKShell_v1) - Оболочка для компакт дисков с ЭУМК. VB.NET, WPF
 * Disc Creator (Disc_Writer) - Программа для создания дисков с ЭУМК. C#, WinForms
 
-![УМК](http://eremin.me/Content/Portfolio/umk3.jpg)
-![УМК](http://eremin.me/Content/Portfolio/umk5.jpg)
-
 Copyright © Eremin Andrey aka developer, 2008 - 2012
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
